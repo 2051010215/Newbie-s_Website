@@ -1,0 +1,50 @@
+.branch{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+div.branchs ul{
+    text-decoration: none;
+    list-style-type: none;
+    width: auto;
+}
+
+.branchs:first-child{
+    margin-left: 250px;
+}
+.branchs h3{
+    margin-top: 7.5%;
+    margin-left: 25px;
+}
+.branchs h4{
+    padding-right: 35%;
+}
+button{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: coral;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: inherit;
+    box-shadow: orchid;
+    font-size: 15px;
+    height: 35px;
+    opacity: 0.95;
+}
+input{
+    height: 35px ;
+    padding: 10px;
+    margin-left: 7.5%;
+    border-radius:initial;
+    opacity: 0.7;
+}
+#chinhsach{
+    margin-left: 0;
+    width: 50%;
+}
+#chinhsach ul{
+    list-style-type: inherit;
+}
+

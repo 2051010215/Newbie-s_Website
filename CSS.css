@@ -1,0 +1,174 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*Heading*/
+#logo{
+    background-color:rgb(1, 5, 6);
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: center;
+	align-items: center;
+}
+body{
+    margin: 0;
+}
+#logoimg{
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+/*Back to top button*/
+#BackToTop > img{
+    width: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*Menu*/
+.menu{
+    z-index: 999999;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(rgb(255, 71, 15),rgb(248, 116, 55) );
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+nav li > a{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+nav img{
+    width: 64px;
+}
+nav li{
+    width: 15%;
+    border-right:1.2px solid whitesmoke;
+    border-left:1.2px solid whitesmoke;
+    transition: all 0.25s;
+}
+nav li:hover{
+    background-color:whitesmoke;
+}
+.active{
+    background-color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/*Products*/
+section{
+    width: 80%;
+    background-color: whitesmoke;
+    height: 100%;
+    margin: 100px auto;
+}
+div.item{
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+div.item a{
+    color: black;
+    text-decoration:none;
+}
+div.item img{
+    width: 90%;
+    margin-top: 20px;
+}
+div.items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.item:hover {      //Hàm làm blur ảnh khi hover (lỗi)// 
+    background-color: rgba(240, 91, 23, 0.6) ;
+    filter: blur(5px);
+    -webkit-filter: blur(4px);
+    transition: all 0.4s;
+}*/
+
+
+div.detail{
+    background: rgba(240, 91, 23, 0.6);
+    color: black;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 0;
+    transition: all 0.45s;
+}
+.detail:hover{
+    background-color: rgba(248, 102, 34, 0.7) ;
+    opacity: 1;
+}
+div.item div:first-child{
+    position: relative;
+}
+div.topright{
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    width: 40%;
+    transform: rotate(10deg);
+}
+
+#updating{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+/*footer*/
+.col30{
+    width: 33.33%;
+    margin-left: 100px;
+}
+footer{
+    background:linear-gradient(rgb(247, 149, 104), rgb(250, 80, 29)) ;
+    padding: 0 15px;
+    padding-bottom: 1px;
+}
+div.my-footer{
+    display: flex;
+    margin: auto;
+}
+div.my-footer ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.col30 a{
+    color: black;
+}
+.col30 a:hover{
+    color:whitesmoke;
+}
+footer h3{
+    margin-left: 30px;
+}
+#icons{
+    width: 35px;
+    margin-left: 15px;
+    border-radius: 5px ;
+}
+
